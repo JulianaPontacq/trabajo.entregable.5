@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.div1 {
+  border: 2px solid purple;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+}
+.div2{
+border: 2px solid blue;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+}
+.div3 {
+  border: 2px solid rgb(215, 79, 101);
+  padding: 10px;
+  margin: 10px;
+  width: 300px; /* Tamaño en porcentaje */
+}
+
+/* Para observar los cambios de apariencia */
+.div1:hover, .div2:hover, .div3:hover {
+  border-color: blue;
+  padding: 20px;
+  margin: 20px;
+  width: 100%;
+}
